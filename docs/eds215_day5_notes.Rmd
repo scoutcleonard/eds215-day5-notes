@@ -45,7 +45,7 @@ ctrl +d -> end of file editor
 
 ### dbplyr
 
-
+**dbplyr** is an R to SQL translater. 
 
 
 
