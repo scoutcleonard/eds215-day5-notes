@@ -1,0 +1,28 @@
+---
+title: "EDS 215 Day 5 Notes"
+author: "Scout Leonard"
+date: "9/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Stuff that sounds important! 
+
+- A class of statements called **alter** that allow you to change things in the schema. 
+- `dbExectute()` sends instructions to the database that do not use tables 
+-
+
+**Commond** + **shift** + **C** comments out a bunch of code at once! 
+
+#### Bash commands: 
+
+- `cut`: 
+- `uniq` shows the lines that are unique
+- `uniq -d` shows the lines that ~aren't unique~ 
+  - you have to `sort` first and then pipe into `uniq` command 
+  - `sort` goes through observations in order 
+  - `sort -u` is a faster way of saying `sort | uniq` 
+  - `uniq -c` give a count of how many unique values encountered 
