@@ -26,3 +26,24 @@ knitr::opts_chunk$set(echo = TRUE)
   - `sort` goes through observations in order 
   - `sort -u` is a faster way of saying `sort | uniq` 
   - `uniq -c` give a count of how many unique values encountered 
+- `>file_name` stores your results as a file with the given name
+- `time(commandline)`: tells you how long it takes to run the command 
+- `^C` stops the program, but some chucks may still run if they are incomplete
+- `cat` grabs one file at a time and spits it out into your terminal
+  - `cat` versus `echo`? 
+
+When you run commands on sorted files, they are really fast. 
+
+
+**FIPS** code is an unambiguous identifier for U.S, states. There are FIPS codes for counties, as well. 
+
+Codes are wonky for data scientist because they are treated as numbers when they are symbolic and not meant to be manipulated. It's a bad idea to use codes that are numbers for new schemes!
+
+ctrl +d -> end of file editor 
+
+### dbplyr
+
+
+
+
+
