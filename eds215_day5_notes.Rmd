@@ -32,6 +32,8 @@ knitr::opts_chunk$set(echo = TRUE)
 - `cat` grabs one file at a time and spits it out into your terminal
   - `cat` versus `echo`? 
 
+You can talk to R  through the command line.
+
 When you run commands on sorted files, they are really fast. 
 
 
